@@ -1,0 +1,26 @@
+{
+  "name": "login_registration_api",
+  "version": "1.0.0",
+  "description": "REST API for registration and login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reshmaretnakumar22/login_registration_api.git"
+  },
+  "author": "Reshma Retnakumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reshmaretnakumar22/login_registration_api/issues"
+  },
+  "homepage": "https://github.com/reshmaretnakumar22/login_registration_api#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-session": "^1.15.6",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.16.0",
+    "path": "^0.12.7"
+  }
+}
